@@ -18,7 +18,7 @@
 }
 
 @media (max-width:768px) {
-  
+
   .more-info { 
     text-align: center;
   }
@@ -38,14 +38,14 @@
   display: flex;
 }
 .application__tasks-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .application__tasks-list-item,.application__title {
-  list-style:none;
+  list-style: none;
 }
 .application__task-input,.application__btn{
-  outline:none;
+  outline: none;
 }
 .application__btn {
   background: none;
@@ -137,14 +137,14 @@ input#new-task {
 
 /* Edit Task */
 .application__tasks-list .application__tasks-list-item .application__task-input {
-  display:none
+  display: none
 }
 
 .application__tasks-list .application__tasks-list-item_edited .application__task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .application__tasks-list .application__tasks-list-item_edited .application__task-label {
-  display:none;
+  display: none;
 }
