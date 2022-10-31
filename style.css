@@ -98,11 +98,11 @@ input#new-task {
 }
 
 /* Task list */
-.application__tasks-list-item,.application__tasks-list-item__redactored {
+.application__tasks-list-item,
+.application__tasks-list-item__redactored {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
